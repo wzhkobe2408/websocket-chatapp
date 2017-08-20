@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Sockets</title>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js'></script>
+	<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+	<div id="app">
+		<div id="appname">
+				<h3>Chat Room</h3>
+			</div>	
+		<div id="mario-chat">	
+			<div id="chat-window">
+				<div id="output"></div>
+				<div id="feedback"></div>
+			</div>
+			<input type="text" id="handle" placeholder="Handle" />
+			<input type="text" id="message" placeholder="Message" />
+			<button id="send">Send</button>
+		</div>
+	</div>
+	<script src='/chat.js'></script>
+</body>
+</html>
